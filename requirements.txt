@@ -14,8 +14,5 @@ fastapi
 uvicorn
 
 ## data science
-numpy
-pandas
-matplotlib
-seaborn
-polars
+pandas 
+mlflow
