@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/706_Week12_YL/mlruns/0/7aa53383768744049243c7087332e864/artifacts
+end_time: 1700461649416
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7aa53383768744049243c7087332e864
+run_name: serious-owl-529
+run_uuid: 7aa53383768744049243c7087332e864
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700461647057
+status: 3
+tags: []
+user_id: vscode

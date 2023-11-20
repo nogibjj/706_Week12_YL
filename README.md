@@ -1,6 +1,6 @@
-[![CI](https://github.com/nogibjj/706_Week01_YL/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/706_Week01_YL/actions/workflows/cicd.yml)
+[![CI](https://github.com/nogibjj/706_Week12_YL/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/706_Week12_YL/actions/workflows/cicd.yml)
 
-# 706_Week01_YL
+# 706_Week12_YL
 
 This repository includes the main tasks for Week 12:
 
@@ -21,5 +21,12 @@ This repository includes the main tasks for Week 12:
 ## Project environment
 
 * Use codespace for scripting
-* Container built in `devcontainers` and virtual environment activated via `requirements.txt`
+* Container built in `devcontainers` and virtual environment activated via `requirements.txt`, install MLflow.
 * To run the code, use the command `python main.py` in the terminal
+
+
+## Main steps
+
+* `main.py` loads the diabetes dataset and extract the target and features. Then it runs a linear regression for `outcome` prediction.
+* Run `mlflow ui` to open the UI and view model histories and test accuracies.
+* Models and artifacts are saved in `mlrun` folder.
